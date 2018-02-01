@@ -9,14 +9,10 @@
     <script src="jquery.js"></script>
     <script>
     $(document).ready(function(){
- $( "a" ).click(function( event ) {
- 
-        alert( "Thanks for visiting!" );
- 
+      $( "a" ).click(function( event ) {
+         alert( "Thanks for visiting!" );
+      });
     });
- 
- 
- });
      </script>
 </body>
 </html>
