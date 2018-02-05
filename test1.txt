@@ -6,16 +6,16 @@
   <style>
   div {
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 200px;
+    height: 200px;
     float: left;
   }
   .first {
-    background-color: #baa;
+    background-color: #f3d;
     left: 0;
   }
   .second {
-    background-color: #07f;
+    background-color: #ace;
     left: 200px;
   }
   </style>
