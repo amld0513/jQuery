@@ -30,10 +30,10 @@
 <div id="two" class="second"></div>
  
 <script>
-jQuery( "but1" ).click(function() {
+jQuery("#but1").click(function() {
   jQuery( "#one" ).slideUp(200).delay( 800 ).fadeIn( 200 );
 });
-jQuery("but2").click(function() {
+jQuery("#but2").click(function() {
   jQuery( "#two" ).slideUp(200).fadeIn( 600 );
 });
 </script>
