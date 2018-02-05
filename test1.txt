@@ -23,13 +23,17 @@
 </head>
 <body>
  
-<p><button>Run</button></p>
+<p><button id="but1">Run 1</button>
+<button id="but2">More Run</>
+</p>
 <div id="one" class="first"></div>
 <div id="two" class="second"></div>
  
 <script>
-jQuery( "button" ).click(function() {
+jQuery( "but1" ).click(function() {
   jQuery( "#one" ).slideUp(200).delay( 800 ).fadeIn( 200 );
+});
+jQuery("but2").click(function() {
   jQuery( "#two" ).slideUp(200).fadeIn( 600 );
 });
 </script>
