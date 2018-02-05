@@ -11,11 +11,11 @@
     float: left;
   }
   .first {
-    background-color: #a4f;
+    background-color: #cde;
     left: 0;
   }
   .second {
-    background-color: #dd0;
+    background-color: #4aa;
     left: 200px;
   }
   </style>
@@ -29,8 +29,8 @@
  
 <script>
 $( "button" ).click(function() {
-  $( "div.first" ).slideUp( 300 ).delay( 800 ).fadeIn( 400 );
-  $( "div.second" ).slideUp( 300 ).fadeIn( 400 );
+  $( "div.first" ).slideUp( 50 ).delay( 800 ).fadeIn( 200 );
+  $( "div.second" ).slideUp( 400 ).fadeIn( 600 );
 });
 </script>
  
