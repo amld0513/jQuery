@@ -6,17 +6,17 @@
   <style>
   div {
     position: absolute;
-    width: 60px;
-    height: 60px;
+    width: 200px;
+    height: 200px;
     float: left;
   }
   .first {
-    background-color: #3f3;
+    background-color: #a4f;
     left: 0;
   }
   .second {
-    background-color: #33f;
-    left: 80px;
+    background-color: #dd0;
+    left: 200px;
   }
   </style>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
