@@ -29,8 +29,8 @@
  
 <script>
 jQuery( "button" ).click(function() {
-  jQuery( "div.first" ).slideUp( 50 ).delay( 800 ).fadeIn( 200 );
-  jQuery( "div.second" ).slideUp( 400 ).fadeIn( 600 );
+  jQuery( "div.first" ).delay( 800 ).fadeIn( 200 );
+  jQuery( "div.second" ).fadeIn( 600 );
 });
 </script>
  
