@@ -6,16 +6,16 @@
   <style>
   div {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 45px;
+    height: 45px;
     float: left;
   }
   .first {
-    background-color: #cde;
+    background-color: #baa;
     left: 0;
   }
   .second {
-    background-color: #4aa;
+    background-color: #07f;
     left: 200px;
   }
   </style>
@@ -24,13 +24,13 @@
 <body>
  
 <p><button>Run</button></p>
-<div class="first"></div>
-<div class="second"></div>
+<div id="one" class="first"></div>
+<div id="two" class="second"></div>
  
 <script>
 jQuery( "button" ).click(function() {
-  jQuery( "div.first" ).delay( 800 ).fadeIn( 200 );
-  jQuery( "div.second" ).fadeIn( 600 );
+  jQuery( "#one" ).delay( 800 ).fadeIn( 200 );
+  jQuery( "#two" ).fadeIn( 600 );
 });
 </script>
  
